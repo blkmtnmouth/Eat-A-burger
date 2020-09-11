@@ -3,29 +3,6 @@
   "version": "1.0.0",
   "description": "burger app",
   "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "lite-server": "lite-server"
-{
-    "name": "mysql-sequelize-heroku",
-    "version": "1.0.0",
-    "description": "",
-    "main": "server.js",
-    "scripts: {
-      "test": "echo \"Error: no test specified\" && exit 1"
-  },
-    "author": "Albert B",
-    "license": "ISC",
-    "dependencies": {    
-      "body-parser": "^1.15.0",
-      "express": "^4.13.4",
-      "express-handlebars": "^3.0.0",
-      "mysql": "2.10.2"
-    }
-}
-    
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/coding-boot-camp/unit18hw.git"
@@ -48,5 +25,30 @@
   "devDependencies": {},
   "keywords": [
     "burger"
-  ]
+    ]
+}
+{
+"scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "start": "node server.js",
+  "lite-server": "lite-server"
+  {
+    "name": "mysql-sequelize-heroku",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" $$ exit 1"
+    },
+    "author": "Albert B",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.15.0",
+        "express": "^4.13.4",
+        "express-handlebars": "^3.0.0",
+        "mysql": "^2.10.2"
+    }
+  }
+  
+  },
 }
